@@ -1,7 +1,50 @@
-﻿@page "/"
+@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Home | CrimCoach Reyjan</PageTitle>
 
-<h1>Hello, world!</h1>
+<MudPaper Class="p-5 p-md-6 mb-5 hero" Elevation="2">
+    <MudGrid AlignItems="AlignItems.Center" Spacing="4">
+        <MudItem xs="12" md="7">
+            <MudText Typo="Typo.h3" Class="mb-3 fw-bold">Become exam-ready with Criminology Coach Reyjan</MudText>
+            <MudText Typo="Typo.body1" Class="mb-4">
+                Clear explanations, practical examples, and focused coaching for students who want confidence in criminology.
+            </MudText>
+            <MudStack Row="true" Spacing="2">
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Href="/enroll">Enroll now</MudButton>
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary" Href="/about">Learn more</MudButton>
+                <MudButton Variant="Variant.Text" Color="Color.Secondary" Href="/contact">Contact</MudButton>
+            </MudStack>
+        </MudItem>
+        <MudItem xs="12" md="5">
+            <MudImage Src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80" Alt="Study notebook" Fluid="true" Class="rounded-4" />
+        </MudItem>
+    </MudGrid>
+</MudPaper>
 
-Welcome to your new app.
+<MudText Typo="Typo.h4" Class="mb-3">What students can expect</MudText>
+<MudGrid Spacing="3" Class="mb-5">
+    <MudItem xs="12" md="4">
+        <MudCard>
+            <MudCardContent>
+                <MudText Typo="Typo.h6">Structured Guidance</MudText>
+                <MudText>Weekly roadmap with priorities, reading checkpoints, and mini-milestones.</MudText>
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+    <MudItem xs="12" md="4">
+        <MudCard>
+            <MudCardContent>
+                <MudText Typo="Typo.h6">Practice-driven Learning</MudText>
+                <MudText>Case-based assignments and mock questions based on real exam patterns.</MudText>
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+    <MudItem xs="12" md="4">
+        <MudCard>
+            <MudCardContent>
+                <MudText Typo="Typo.h6">Personal Coaching</MudText>
+                <MudText>Feedback sessions to improve weak spots and build long-term study confidence.</MudText>
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+</MudGrid>
