@@ -2,7 +2,7 @@
 
 This is the website for Criminology Coach Reyjan Paches. 
 
-On top there is a appbar. In the middel 5 tabs. Switching between tabs goes smooth and with animation.
+On top there is a appbar. In the middel 5 tabs. Switching between tabs goes smooth.
 The website contains the following tabs:
 
 # HOME
@@ -22,4 +22,5 @@ This page contains some links to youtube videos so people can attent free youtub
 This page contains the contact information. This are 2 cards with herin link to send an Email and a link to the messenger or whatsapp of the 2 contact numbers.
 
 
-The website self is made in .NET Blazor with MudBlazor for the UI. As little CSS as needed. As much as possible in bootstrap classes.
+The website self is made in .NET Blazor with MudBlazor for the UI. 
+For the styling bootstrap classes are prevered. If no other choice css is used.
